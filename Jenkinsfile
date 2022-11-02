@@ -4,7 +4,7 @@ pipeline {
         stage('run') {
             steps {
                 echo 'Welcome to Jenkins World'
-                echo 'Hi'
+                echo 'Hi Hi'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
